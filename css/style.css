@@ -1,0 +1,890 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+    
+    text-rendering: optimizeLegibility;
+}
+h1,h2,h3,h4,h5,h6{
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.menuBar{
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 4px solid #00bfd8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+}
+.container{
+    
+    width: 114rem;
+    padding: 0px 1.5rem;
+    margin: auto;
+    
+    
+}
+.menuBarWrapper{
+    
+    padding: 3rem 0;
+    overflow: hidden;
+}
+.logo{
+        width: 12rem;
+    height: 2rem;
+    float: left;
+    
+}
+.logo img{
+    
+}
+.menuItem ul{
+    float: right;
+}
+.menuItem ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 2rem;
+    
+}
+.menuItem ul li a{
+        text-decoration: none;
+    color: #393939;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    transition: .3s;
+}
+.menuItem ul li a:hover{
+    color: #00bfd8;
+
+}
+.displaySection{
+    
+    width:100%;
+    height: 87.8rem;
+    background-image: url(../img/backgroun.jpg);
+    margin-top: 9rem;
+    
+    
+    
+}
+
+.title{
+    width: 56rem;
+    float: left;
+    margin-top: 24rem;
+    
+    
+}
+.title h1{
+    font-size: 5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    line-height: 6rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+}
+.title .span1{
+    color: #00bfd8;
+}
+.title .span2{
+    color: rgba(6, 6, 6, 0.65);
+}
+.title p{
+    font-size: 1.7rem;
+    color: #626262;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.btn{
+    padding: 1.5rem 4rem;
+    font-size: 1.2rem;
+    background: #00bfd8;
+    border: 2px solid #00bfd8;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 3rem;
+    transition: .3s;
+    margin-left: .3rem;
+    
+}
+.btn:hover{
+    
+    background: #fff;
+    color: #00bfd8;
+    
+    cursor: pointer;
+}
+.displayimg{
+    
+    width: 56rem;
+    float: right;
+    margin: 10rem 0;
+    
+}
+.serviceSection{
+    
+    padding: 9rem 0;
+    background: #F9FAFC;
+    overflow: hidden;
+
+    
+}
+.growth{
+    
+    text-align: center;
+    
+}
+.growth h2{
+    
+    font-size: 3.7rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: #393939;
+}
+.growth .mainp{
+    
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #626262;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 3rem;
+    font-weight: 300;
+}
+.growth .box1{
+    border: .5px solid #d8d8d8;
+    width: 28.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    float: left;
+    
+    
+    
+    
+}
+.growth .box1 h3{
+    font-size: 2.5rem;
+    color: #393939;
+    margin: 1.5rem 0;
+}
+.growth .boxp{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.3rem;
+}
+.growth .box1 img{
+    width: 9.3rem;
+    margin: 1.5rem;
+    
+}
+
+
+
+
+
+
+
+.growth .mainp{
+    
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #626262;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 7rem;
+    font-weight: 300;
+}
+.growth .box2{
+    border: .5px solid #d8d8d8;
+    width: 28.5rem;
+    padding: 3rem;
+    border-radius: 10px;
+    float: left;
+    margin: 0 4.5rem;
+    
+    
+}
+.growth .box2 h3{
+    font-size: 2.5rem;
+    color: #393939;
+    margin: 1.5rem 0;
+}
+.growth .boxp{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.3rem;
+}
+.growth .box2 img{
+    width: 9.3rem;
+    margin: 1.5rem;
+    
+}
+
+
+
+
+
+
+.growth .mainp{
+    
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #626262;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 7rem;
+    font-weight: 300;
+}
+.growth .box3{
+    border: .5px solid #d8d8d8;
+    width: 28.5rem;
+    padding: 3rem;
+    border-radius: 10px;
+    float: left;
+    
+}
+.growth .box3 h3{
+    font-size: 2.5rem;
+    color: #393939;
+    margin: 1.5rem 0;
+    
+}
+.growth .boxp{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.3rem;
+}
+.growth .box3 img{
+    width: 9.3rem;
+    margin: 1.5rem;
+    
+}
+
+.growth .box{
+    
+    margin: 10rem 0;
+    overflow: hidden;
+    
+}
+
+.sec2row{
+    float: left;
+    margin-top: 5rem;
+}
+
+.sec2row h2{
+    font-size: 3.7rem;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: #393939;
+    margin: 3rem 0;
+}
+.sec2row p{
+    
+    width: 45rem;
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #626262;
+    margin-bottom: 3rem;
+    font-weight: 300;
+}
+.imgsec img{
+    
+    width: 55rem;
+    margin-left: 14rem;
+
+
+}
+
+
+.imgsec2 img{
+    
+    width: 55rem;
+    margin-left: 3rem;
+    float: left;
+    margin-top: 5rem;
+    margin-right: 14rem;
+
+}
+
+
+
+.sec3row {
+    
+    overflow: hidden;
+    margin-top: 9rem;
+
+
+    
+}
+.serviceSection .seosec{
+    padding-top: 7rem;
+}
+
+.sec3row h2{
+    
+    font-size: 3.7rem;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: #393939;
+    margin: 3rem 0;
+    
+}
+.sec3row p {
+    
+    width: 45rem;
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #626262;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+
+
+.pricingSection{
+    
+    margin-top: -1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 9rem 0;
+    overflow: hidden;
+    
+    
+    
+}
+
+
+.pricingSection h2{
+    
+    font-size: 3.7rem;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: #393939;
+    margin: 3rem 0;
+}
+hr{
+    
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: #d8d8d8;
+}
+.pricingSection .pricep {
+    
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #626262;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 7rem;
+    font-weight: 300;
+}
+.pricingSection h3{
+    
+    font-size: 3.3rem;
+    font-weight: 400;
+    color: #393939;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.priceno{
+    font-size: 5rem;
+    font-weight: 600;
+    color: #00bfd8;
+}
+.pricingSection sup{
+    
+    font-size: 5.3rem;
+    color: #00bfd8;
+}
+.pricingSection button{
+    
+    margin-bottom: 2.7rem;
+    margin-top: 1.1rem;
+}
+.pricingSection p{
+    
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: #393939;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricingSection .box1{
+    
+    width: 33rem;
+    border: .5px solid #d8d8d8;
+    border-radius: 10px;
+    float: left;
+    
+    
+    
+    
+}
+
+.pricingSection .box2{
+    
+    width: 33rem;
+    border: .5px solid #d8d8d8;
+    border-radius: 10px;
+    float: left;
+    margin: 0 5rem;
+   
+    
+    
+    
+}
+
+.pricingSection .box3{
+    
+    width: 33rem;
+    border: .5px solid #d8d8d8;
+    border-radius: 10px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.requestSection{
+    
+    
+    background: #F9FAFC;
+    padding: 11rem 0;
+    overflow: hidden;
+}
+.requestSection .text{
+    
+    width: 60.3rem;
+    float: left;
+    
+    
+}
+.requestSection .text h2{
+    
+    font-size: 3.7rem;
+    line-height: 4.7rem;
+    color: #393939;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin: 2.7rem 0;
+}
+.requestSection .text .textp{
+    width: 45rem;
+    
+    margin-top: 2.7rem;
+    margin-bottom: 2.9rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #626262;
+}
+.requestSection .text p{
+    
+    width: 45rem;
+    
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #626262;
+    
+}
+
+.requestSection .form{
+    
+    width: 50rem;
+    float: left;
+}
+.requestSection .form input{
+    
+    width: 100%;
+    display: block;
+    padding: 1.7rem 1.3rem;
+    margin: 1.7rem 0;
+    outline: none;
+    border: .5px solid #dadada;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: #828282;
+}
+.requestSection .form .check{
+    display: inline;
+    width: 3rem;
+    
+}
+.requestSection .form .check,span{
+    
+    margin: 2.5rem 0;
+    
+}
+.requestSection .form select{
+    
+    display: block;
+    width: 100%;
+    padding: 1.7rem 1.3rem;
+    outline: none;
+    border: .5px solid #dadada;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: #7d7d7d;
+}
+.requestSection .form span{
+    
+    font-size: 1.3rem;
+    color: #8c8c8c;
+}
+.btn1{
+    
+    padding: 1.5rem 4rem;
+    font-size: 1.2rem;
+    background: #00bfd8;
+    border: 2px solid #00bfd8;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    transition: .3s;
+    margin-left: .3rem;
+    width: 100%;
+    
+}
+.btn1:hover{
+    background: #fff;
+    color: #00bfd8;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.aboutSection{
+    
+    text-align: center;
+    padding: 10rem 0;
+    overflow: hidden;
+    
+}
+.aboutSection h2{
+    
+    font-size: 4rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #393939;
+    letter-spacing: .03rem;
+}
+
+.aboutSection .text p{
+    
+    font-size: 1.6rem;
+    text-align: center;
+    color: #626262;
+    margin: 3rem 0 5rem 0;
+    line-height: 2rem;
+}
+.aboutSection .member img{
+    
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+}
+.aboutSection h4{
+    
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: #626262;
+}
+.aboutSection .member p{
+    
+    font-size: 1.4rem;
+    color: #626262;
+    margin-top: .7rem;
+}
+.aboutSection .member a i{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.9rem;
+    padding: .7rem;
+    background: #00bfd8;
+    border-radius: 50%;
+    color: #fff;
+    margin: .7rem;
+}
+
+
+
+.aboutSection .member1{
+    
+    float: left;
+    width: 28.5rem;
+    margin: auto;
+    
+    
+}
+.aboutSection .member2{
+    float: left;
+    width: 28.5rem;
+    margin: auto;
+}
+.aboutSection .member3{
+    
+    float: left;
+    width: 28.5rem;
+    margin: auto;
+}
+.aboutSection .member4{
+    
+    float: left;
+    width: 28.5rem;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.contactSection{
+    
+    padding: 10rem 0;
+    overflow: hidden;
+    background-image: url(../img/contact-background.jpg);
+    
+}
+.contactSection .contactrow1{
+    
+    text-align: center;
+    
+}
+.contactSection h2{
+    
+    font-size: 3.6rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #393939;
+    margin-bottom: 2rem;
+}
+.contactSection .fa-map-marker-alt{
+    
+    color: #00bfd8;
+    margin: 0 .4rem;
+}
+.contactSection .fa-phone,.fa-envelope{
+    
+    margin-left: 1.7rem;
+    color: #00bfd8;
+}
+.contactSection .contactrow1 a{
+    
+    color: #00bfd8;
+}
+.contactSection p{
+    font-size: 1.6rem;
+    color: #626262;
+    line-height: 2.4rem;
+}
+
+.contactSection .contactrow2{
+    
+    margin-top: 6.5rem;
+}
+
+.contactSection .map{
+    
+    float: left;
+    margin: 0 2.7rem;
+}
+.contactSection .form{
+    
+    float: left;
+    width: 50rem;
+    margin: 0 2.7rem;
+}
+
+.contactSection input ,textarea{
+    
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+    outline: none;
+    border: .5px solid #dadada;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: #828282;
+    
+}
+.contactSection .check1{
+    
+    float: left;
+    display: inline;
+    margin: 0;
+    width: 2rem;
+}
+.contactSection .form span{
+    float: left;
+    margin: 0;
+    width: 48rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    
+    
+}
+.contactSection .form .privacy{
+    
+    font-size: 1.3rem;
+    margin-bottom: 7rem;
+}
+.contactSection .form .privacy a{
+    
+    color: #00bfd8;
+}
+
+
+
+footer {
+    
+    overflow: hidden;
+}
+footer .social1{
+    
+    display: block;
+    overflow: hidden;
+    margin: 7rem 0;
+    
+}
+footer .about{
+    
+    float: left;
+    width: 35rem;
+}
+footer .important{
+    
+    float: left;
+    width: 35rem;
+}
+footer .social2{
+    
+    float: left;
+    width: 35rem;
+
+    
+}
+footer h4{
+    font-size: 2.3rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #393939;
+}
+footer .mainfooter{
+    
+    display: block;
+    width: 30rem;
+    margin: auto;
+    padding: 3.5rem 0;
+    
+}
+.forborder{
+    
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+footer .about h4,.important h4,.social2 h4{
+    
+    margin-bottom: 2rem;
+}
+
+footer p{
+    font-size: 1.4rem;
+    color: #626262;
+    line-height: 2rem;
+    
+}
+footer p i{
+    
+    font-size: .8rem;
+    margin-right: 1rem;
+    color: #00bfd8;
+}
+footer p a{
+    
+    color: #00bfd8;
+    
+}
+footer .social2 a i{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #00bfd8;
+    padding: 1.5rem;
+    font-size: 2rem;
+    border-radius: 26%;
+    color: #fff;
+    margin: 0 .5rem;
+    
+}
+footer .mainfooter span,span a{
+    
+    font-size: 1.3rem;
+    margin: .5rem 0;
+    color: #626262;
+    
+}
+
+
+
