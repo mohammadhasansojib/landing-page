@@ -885,6 +885,49 @@ footer .mainfooter span,span a{
     color: #626262;
     
 }
-
-
+@media screen and (max-width:1212px){
+html: 56.5%;
+}
+@media screen and (max-width:1072px){
+html: 51.5%;
+}
+@media screen and (max-width:980px){
+html: 47.5%;
+}
+@media screen and (max-width:910px){
+html: 44.5%;
+}
+@media screen and (max-width:844px){
+html: 40.5%;
+}
+@media screen and (max-width:786px){
+html: 37.5%;
+}
+@media screen and (max-width:712px){
+html: 34.5%;
+}
+@media screen and (max-width:660px){
+html: 31.5%;
+}
+@media screen and (max-width:600px){
+html: 28.5%;
+}
+@media screen and (max-width:540px){
+html: 25.5%;
+}
+@media screen and (max-width:490px){
+html: 22.5%;
+}
+@media screen and (max-width:436px){
+html: 19.5%;
+}
+@media screen and (max-width:378px){
+html: 17.5%;
+}
+@media screen and (max-width:344px){
+html: 15.5%;
+}
+@media screen and (max-width:304px){
+html: 13.5%;
+}
 
